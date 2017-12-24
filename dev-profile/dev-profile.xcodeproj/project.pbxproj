@@ -12,6 +12,7 @@
 		309C77201FEFB9A900B0B417 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 309C771E1FEFB9A900B0B417 /* Main.storyboard */; };
 		309C77221FEFB9A900B0B417 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 309C77211FEFB9A900B0B417 /* Assets.xcassets */; };
 		309C77251FEFB9A900B0B417 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 309C77231FEFB9A900B0B417 /* LaunchScreen.storyboard */; };
+		309C77311FEFC9B400B0B417 /* CornerLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309C77301FEFC9B400B0B417 /* CornerLogo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		309C77211FEFB9A900B0B417 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		309C77241FEFB9A900B0B417 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		309C77261FEFB9A900B0B417 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		309C77301FEFC9B400B0B417 /* CornerLogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CornerLogo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 		309C770E1FEFB9A900B0B417 = {
 			isa = PBXGroup;
 			children = (
+				309C772F1FEFC99600B0B417 /* View */,
 				309C77191FEFB9A900B0B417 /* dev-profile */,
 				309C77181FEFB9A900B0B417 /* Products */,
 			);
@@ -62,6 +65,14 @@
 				309C77261FEFB9A900B0B417 /* Info.plist */,
 			);
 			path = "dev-profile";
+			sourceTree = "<group>";
+		};
+		309C772F1FEFC99600B0B417 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				309C77301FEFC9B400B0B417 /* CornerLogo.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			files = (
 				309C771D1FEFB9A900B0B417 /* ViewController.swift in Sources */,
 				309C771B1FEFB9A900B0B417 /* AppDelegate.swift in Sources */,
+				309C77311FEFC9B400B0B417 /* CornerLogo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
